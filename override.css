@@ -1,7 +1,4 @@
-/* testing
-header {
-  border: 3px solid orangered !important;
-} */
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap");
 
 nav a div div,
 nav div div div {
@@ -30,7 +27,12 @@ div[data-testid="primaryColumn"] {
   max-width: 700px !important;
   box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.3);
   background-color: rgb(21, 32, 43);
+  border-color: #0d161e !important;
 }
+
+/* div[data-testid="primaryColumn"] div div {
+  max-width: 700px !important;
+} */
 
 header {
   width: 10%;
@@ -38,7 +40,7 @@ header {
 
 body {
   background: #151e27 !important;
-  font-family: "Avenir", Helvetica, Arial, sans-serif !important;
+  font-family: "Libre Franklin", "Avenir", Helvetica, Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
 }
@@ -48,11 +50,16 @@ div,
 article,
 aside,
 main {
-  font-family: "Avenir", Helvetica, Arial, sans-serif !important;
+  font-family: "Libre Franklin", "Avenir", Helvetica, Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
 }
 
 article {
   border-color: #151e27 !important;
+  padding: 10px !important;
+}
+
+div {
+  border-color: #06090c !important;
 }
