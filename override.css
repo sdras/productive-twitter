@@ -99,3 +99,8 @@ form[aria-label="Search Twitter"][role="search"] {
   top: 8px;
   right: 20px;
 }
+
+div[aria-modal="true"] div div div div div div div div div div div div div {
+  border: 0 !important;
+  border-width: 0 !important;
+}
