@@ -30,14 +30,6 @@ div[data-testid="primaryColumn"] {
   border-color: #0d161e !important;
 }
 
-/* div[data-testid="primaryColumn"] div div {
-  max-width: 700px !important;
-} */
-
-header {
-  width: 10%;
-}
-
 body {
   background: #151e27 !important;
   font-family: "Libre Franklin", "Avenir", Helvetica, Arial, sans-serif !important;
@@ -53,6 +45,7 @@ main {
   font-family: "Libre Franklin", "Avenir", Helvetica, Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
+  letter-spacing: 0.01em;
 }
 
 article {
@@ -61,8 +54,8 @@ article {
   font-size: 17px;
 }
 
-article div div div div div span {
-  font-weight: 17px !important;
+article div div div div {
+  font-size: 17px !important;
 }
 
 div {
