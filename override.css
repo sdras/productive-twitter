@@ -50,6 +50,8 @@ article {
   border-color: #151e27 !important;
   padding: 20px 10px 5px 10px !important;
   font-size: 17px;
+  max-width: 650px !important;
+  transition: none !important;
 }
 
 article div div div div {
@@ -79,4 +81,17 @@ div[role="blockquote"] {
 
 article div div a + div:empty {
   background: linear-gradient(rgb(242, 101, 102, 0.8), #1d1f33);
+}
+
+div[data-testid="sidebarColumn"] {
+  visibility: hidden !important;
+  width: 125px !important;
+}
+
+form[aria-label="Search Twitter"][role="search"] {
+  visibility: visible !important;
+  position: fixed !important;
+  width: 270px !important;
+  top: 8px;
+  right: 20px;
 }

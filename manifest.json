@@ -14,11 +14,6 @@
     }
   ],
 
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
-
   "page_action": {
     "default_icon": {
       "16": "icons/icon16.png",
