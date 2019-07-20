@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Productive Twitter",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "description": "Minimal and friendly theme for productive social sharing",
   "short_name": "Productive Twitter",
