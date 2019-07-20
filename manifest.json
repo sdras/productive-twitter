@@ -1,8 +1,8 @@
 {
-  "name": "Codopen",
-  "version": "1.0.2",
-  "manifest_version": 2,
-  "description": "Easy-peasy debugging of all your codepen codepens!",
+  "name": "Twittyle",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "description": "Razzle dazzle for Twitter",
 
   "background": {
     "scripts": ["background.js"],
@@ -16,20 +16,5 @@
     }
   },
 
-  "commands": {
-    "toggle-codepen-dbg": {
-      "description": "Toggle CodePen Debugging Mode",
-      "suggested_key": {
-        "default": "Ctrl+Shift+I"
-      }
-    }
-  },
-
-  "permissions": [
-    "activeTab",
-    "declarativeContent",
-    "tabs"
-  ],
-
-  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'"
+  "permissions": ["activeTab", "declarativeContent", "tabs"]
 }
