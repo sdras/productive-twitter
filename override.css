@@ -82,6 +82,13 @@ div[aria-live="polite"] {
   text-align: center !important;
 }
 
+div[aria-live="polite"][aria-label="20+ unread items"] {
+  width: 32px !important;
+  height: 21px !important;
+  right: -20px !important;
+  padding-top: 4px !important;
+}
+
 div[role="blockquote"] {
   padding: 10px;
 }
