@@ -34,7 +34,7 @@ div[data-testid="primaryColumn"] {
 
 body {
   background: #151e27 !important;
-  font-family: "Libre Franklin", "Avenir", Helvetica, Arial, sans-serif !important;
+  font-family: "Avenir", Helvetica, Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
 }
@@ -44,7 +44,7 @@ div,
 article,
 aside,
 main {
-  font-family: "Libre Franklin", "Avenir", Helvetica, Arial, sans-serif !important;
+  font-family: "Avenir", Helvetica, Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   letter-spacing: 0.01em;
@@ -75,8 +75,11 @@ div[aria-live="polite"] {
   padding: 2px;
   font-size: 12px !important;
   line-height: 1.2em !important;
-  top: -11px;
-  right: -7px;
+  top: -15px;
+  right: -10px;
+  width: 22px !important;
+  height: 22px !important;
+  text-align: center !important;
 }
 
 div[role="blockquote"] {
@@ -107,4 +110,11 @@ div[aria-modal="true"] div div div div div div div div div div div div div {
 
 div[data-testid="tweet"] > div > div:first-child:empty {
   display: none !important;
+}
+
+a[aria-label="Profile"] img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  opacity: 1;
 }
