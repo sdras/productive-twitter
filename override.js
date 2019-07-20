@@ -1,4 +1,6 @@
-// const sidebaritem = document.querySelector('aside[aria-label="Who to follow"]')
-// const sidebarcontain = sidebaritem.parentNode.parentNode
+setTimeout(() => {
+  var sidebaritem = document.querySelector("aside")
+  //var sidebarcontain = sidebaritem.parentNode.parentNode
 
-// console.log(sidebarcontain)
+  console.log(sidebaritem)
+}, 1000)

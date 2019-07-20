@@ -24,7 +24,7 @@ h2 div {
 }
 
 div[data-testid="primaryColumn"] {
-  max-width: 700px !important;
+  max-width: 650px !important;
   box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.3);
   background-color: rgb(21, 32, 43);
   border-color: #0d161e !important;
@@ -57,7 +57,12 @@ main {
 
 article {
   border-color: #151e27 !important;
-  padding: 10px !important;
+  padding: 20px 10px !important;
+  font-size: 17px;
+}
+
+article div div div div div span {
+  font-weight: 17px !important;
 }
 
 div {
