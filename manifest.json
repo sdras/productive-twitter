@@ -4,10 +4,13 @@
   "manifest_version": 1,
   "description": "Razzle dazzle for Twitter",
 
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
+  "content_scripts": [
+    {
+      "matches": [".+://twitter.com/.+"],
+      "css": ["override.css"],
+      "js": ["override.js"]
+    }
+  ],
 
   "page_action": {
     "default_icon": {
