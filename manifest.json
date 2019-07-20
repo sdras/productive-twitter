@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Twittyle",
+  "name": "Productive Twitter",
   "version": "1.0.0",
 
-  "description": "Razzle dazzle for Twitter",
-  "short_name": "Twittyle",
+  "description": "Minimal and friendly theme for productive social sharing",
+  "short_name": "Productive Twitter",
   "permissions": ["activeTab", "declarativeContent", "tabs"],
 
   "content_scripts": [

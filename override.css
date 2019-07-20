@@ -131,7 +131,8 @@ svg[aria-label="Verified account"] {
   display: none;
 }
 
-div[role="menu"] {
+div[role="menu"],
+div[aria-label="New Tweets are available. Push period to go to the beginning of your timeline and view them"] {
   /* get rid of that weird glowy box-shadow on dim mode, damn */
   box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.3) !important;
 }
