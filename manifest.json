@@ -2,9 +2,11 @@
   "name": "Twittyle",
   "version": "1.0.0",
   "manifest_version": 2,
+  "default_locale": "en",
   "description": "Razzle dazzle for Twitter",
+  "short_name": "Twittyle",
 
-  "permissions": ["activeTab", "declarativeContent", "tabs", "storage"],
+  "permissions": ["activeTab", "declarativeContent", "tabs"],
 
   "content_scripts": [
     {
