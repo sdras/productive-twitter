@@ -118,3 +118,8 @@ a[aria-label="Profile"] img {
   position: absolute;
   opacity: 1;
 }
+
+svg[aria-label="Verified account"] {
+  /* lol */
+  display: none;
+}
