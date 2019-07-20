@@ -123,3 +123,8 @@ svg[aria-label="Verified account"] {
   /* lol */
   display: none;
 }
+
+div[role="menu"] {
+  /* get rid of that weird glowy box-shadow on dim mode, damn */
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.3) !important;
+}
