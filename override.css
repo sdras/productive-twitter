@@ -76,3 +76,7 @@ div[aria-live="polite"] {
 div[role="blockquote"] {
   padding: 10px;
 }
+
+article div div a + div:empty {
+  background: linear-gradient(rgb(242, 101, 102, 0.8), #1d1f33);
+}
