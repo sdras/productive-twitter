@@ -30,6 +30,10 @@ div[data-testid="primaryColumn"] {
   border-color: #0d161e !important;
 }
 
+div[data-testid="primaryColumn"] div div div {
+  padding: 10px;
+}
+
 body {
   background: #151e27 !important;
   font-family: "Libre Franklin", "Avenir", Helvetica, Arial, sans-serif !important;
@@ -56,6 +60,7 @@ article {
 
 article div div div div {
   font-size: 17px !important;
+  line-height: 1.5;
 }
 
 div {

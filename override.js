@@ -3,8 +3,7 @@ setTimeout(() => {
   var sidebarcontain = sidebaritem.parentNode.parentNode.parentNode
   var children = sidebarcontain.childNodes
 
-  console.log(Array.isArray(children))
-  // var finalchildren = children.shift()
-
-  // finalchildren.style.display = "none"
+  children.forEach((el, i) => {
+    i === 0 ? (el.style.marginTop = "10px") : (el.style.display = "none")
+  })
 }, 1000)
