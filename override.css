@@ -18,7 +18,11 @@ aside[aria-label="Who to follow"] {
   opacity: 0.7;
 }
 
-h2 {
+a[aria-label="Tweet"] {
+  display: none;
+}
+
+h2 div {
   font-weight: 400 !important;
 }
 
@@ -34,6 +38,19 @@ header {
 
 body {
   background: #151e27 !important;
+  font-family: "Avenir", Helvetica, Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+span,
+div,
+article,
+aside,
+main {
+  font-family: "Avenir", Helvetica, Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
 }
 
 article {
