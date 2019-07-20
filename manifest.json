@@ -1,23 +1,28 @@
 {
   "name": "Twittyle",
   "version": "1.0.0",
-  "manifest_version": 1,
+  "manifest_version": 2,
   "description": "Razzle dazzle for Twitter",
+
+  "permissions": ["activeTab", "declarativeContent", "tabs", "storage"],
 
   "content_scripts": [
     {
-      "matches": [".+://twitter.com/.+"],
+      "matches": ["https://twitter.com/*"],
       "css": ["override.css"],
       "js": ["override.js"]
     }
   ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
 
   "page_action": {
     "default_icon": {
       "16": "icons/icon16.png",
       "32": "icons/icon32.png"
     }
-  },
-
-  "permissions": ["activeTab", "declarativeContent", "tabs"]
+  }
 }
