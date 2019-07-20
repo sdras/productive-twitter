@@ -21,6 +21,10 @@ h2 div {
   font-weight: 400 !important;
 }
 
+header {
+  margin-left: -7vw !important;
+}
+
 div[data-testid="primaryColumn"] {
   max-width: 650px !important;
   box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.3);
