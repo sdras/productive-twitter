@@ -13,6 +13,17 @@ a[aria-label="Tweet"] {
   display: none;
 }
 
+a[href="/compose/tweet"] {
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+  transition: 0.15s ease-out;
+}
+
+a[href="/compose/tweet"]:hover {
+  opacity: 1;
+}
+
 aside[aria-label="Who to follow"] {
   opacity: 0.6;
 }
