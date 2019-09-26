@@ -140,3 +140,7 @@ div[aria-label="New Tweets are available. Push period to go to the beginning of 
 article[data-testid="tweetDetail"] > div:first-child {
   display: none;
 }
+
+main[role="main"] > div {
+  width: auto;
+}
