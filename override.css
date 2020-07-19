@@ -26,14 +26,22 @@ header {
 }
 
 div[data-testid="primaryColumn"] {
+  border-color: rgba(40, 40, 40, 0.35) !important;
   max-width: 650px !important;
-  box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.3);
-  background-color: rgb(21, 32, 43);
-  border-color: #0d161e !important;
+  box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.25);
+}
+
+div[aria-label="Timeline: Conversation"]
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div[role="button"] {
+  padding: 0 0 20px 40px;
 }
 
 body {
-  background: #151e27 !important;
   font-family: "Avenir", Helvetica, Arial, sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
@@ -51,20 +59,18 @@ main {
 }
 
 article {
-  border-color: #151e27 !important;
-  padding: 20px 10px 5px 10px !important;
   font-size: 17px;
   max-width: 650px !important;
   transition: none !important;
 }
 
+article[role="article"] > div {
+  padding: 8px 15px 20px !important;
+}
+
 article div div div div {
   font-size: 17px !important;
   line-height: 1.5;
-}
-
-div {
-  border-color: #06090c !important;
 }
 
 header div div div div div {
@@ -143,4 +149,8 @@ article[data-testid="tweetDetail"] > div:first-child {
 
 main[role="main"] > div {
   width: 900px;
+}
+
+div[data-testid="DMDrawer"] {
+  display: none;
 }
