@@ -65,7 +65,7 @@ article {
 }
 
 article[role="article"] > div {
-  padding: 8px 15px 20px !important;
+  padding: 10px 15px 20px !important;
 }
 
 article div div div div {
