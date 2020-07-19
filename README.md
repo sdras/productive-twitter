@@ -1,4 +1,4 @@
-# Productive twitter
+# Productive Twitter
 
 > Twitter theme to increase productivity as per changes in July 2020.
 
