@@ -152,5 +152,5 @@ main[role="main"] > div {
 }
 
 div[data-testid="DMDrawer"] {
-  display: none;
+  visibility: hidden
 }
