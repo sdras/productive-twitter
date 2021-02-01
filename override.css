@@ -154,3 +154,9 @@ main[role="main"] > div {
 div[data-testid="DMDrawer"] {
   visibility: hidden
 }
+
+header[role="banner"] div[role="presentation"] div:last-child {  
+  /* fix avatar picture */
+  width: 40px;
+  height: 40px;
+} 
